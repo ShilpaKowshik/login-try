@@ -1,0 +1,220 @@
+#loginbox {
+  top : 0;
+  position : absolute;
+  left : 0;
+  width : 70%;
+  height : 100%;
+  background : #fff;
+  display : flex;
+  justify-content : space-between;
+  align-items : center;
+  padding : 0 9.88% 0 19.47%;
+
+  .logo {
+    display : flex;
+    margin-top : 10px;
+
+    img {
+      display : flex;
+      margin : 0 auto;
+    }
+
+    .signin_button {
+      height : 44px;
+    }
+  }
+
+  .left {
+    float : left;
+    display : inline-block;
+    text-align : center;
+    margin : 0;
+
+  }
+
+  .right {
+    min-width : 415px;
+    max-width : 415px;
+    min-height : 578px;
+    margin : 0 0 0 0;
+    display : flex;
+
+    .signIn-container {
+      width : 100%;
+
+      .signIn {
+        width : 100%;
+        height : 100%;
+        padding : 0 12% 0;
+        box-sizing : border-box;
+        border-radius : 10px;
+        margin : 0;
+        border : 1px solid #d6d6d6;
+        box-shadow : none;
+
+        .login-form {
+          width : 100%;
+          margin : 0 auto;
+          
+          .for-pass {
+            display : block;
+            float : right;
+            font : normal 15px roboto;
+            color : #0090e9;
+            margin : 0;
+            &:hover {
+              text-decoration : none;
+            }
+          }
+
+          .log-log { 
+            text-align : center;
+            margin : 65px 0 0 0;
+
+            .signin {
+              width : 205px;
+              height : 43px;
+              border-radius : 10px;
+              font : 500 18px/40px roboto;
+              color : #fff;
+              text-transform : capitalize;
+              margin : 0;
+            }
+          }
+
+          .log-reg {
+            text-align : center;
+            margin : 45px 0 0 0;
+
+            .for-pass {
+              color : #808080;
+              float : none;
+              margin-bottom : 4px;
+            }
+
+            .for-register {
+              color : #0090e9;
+              font : 500 20px roboto;
+              position : relative;
+              margin : 0 auto 0;
+              text-decoration : none;
+              &:hover {
+                text-decoration : none;
+              }
+              &:before {
+                content : '';
+                position : absolute;
+                width : 30px;
+                height : 1px;
+                background : lighten(#999,20%);
+                left : -40px;
+                top : 50%;
+                transform : translateY(-50%);
+              }
+              &:after {
+                content : '';
+                position : absolute;
+                width : 30px;
+                height : 1px;
+                background : lighten(#999,20%);
+                right : -40px;
+                top : 50%;
+                transform : translateY(-50%);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.playstore-link-holder {
+  width : 299px;
+  display : flex;
+  justify-content : space-between;
+  margin : 143px auto 0;
+}
+
+.app-store-img-holder {
+  width : 140px;
+  height : 41px;
+  &.apple {
+    width : 137px;
+  }
+  img { 
+    width : 100%;
+    height : 100%;
+  }
+}
+
+.login-controls-container {
+    width : 100%;
+    margin : 110px 0 0 0;
+}
+
+.login-control-holder {
+    width : 100%;
+    min-height : 60px;
+    input {
+      &::-webkit-input-placeholder {
+        color : #aeaeae;
+      }
+    }
+}
+
+.common-input-ctrl {
+  width : 100%;
+  height : 35px;
+  border : 0;
+  border-bottom : 1px solid #d6d6d6;
+  font-family : Roboto;
+  font-weight : 300;
+  font-size : 20px;
+  color : #494949;
+  padding : 0;
+  outline : none;
+  &::-webkit-input-placeholder {
+   color : #aeaeae;
+  }
+}
+
+.log-service {
+    height : 30px;
+    font-family : roboto;
+    font-size : 12px;
+    font-weight : normal;
+    font-style : normal;
+    font-stretch : normal;
+    line-height : normal;
+    letter-spacing : normal;
+    text-align : center;
+    color : #808080;
+    margin : 15px 0 25px 0;
+    p {
+      margin-bottom: 0;
+    }
+    a {
+      text-decoration: none;
+    }
+    span {
+      color: #0090e9;
+      font-size: 12px;
+    }
+  }
+  
+  .reg-butt {
+    margin: 25px 0 0 0 !important;
+  }
+  
+  .cus-reg {
+    margin: 90px 0 0 0;
+  }
+  
+  .regis {
+    margin: 0 !important;
+  }
+  
+  .signIn-container {
+    font-family: roboto;
+  }
